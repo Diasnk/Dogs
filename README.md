@@ -38,11 +38,15 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-
-Site is build on NextJs using Typecript and React. It is already deployed on a (https://dogs-9ucu0xu3d-dias-projects-45390f39.vercel.app/). You can view all the needed components and pages on src. ChatGPT is conected to the site and api for dogs is (https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t). It's a bit wierd when it comes to working with the search component. I tried to make it with query, but the best one is in the site. It doesn't give us the right answer because of the lame api. The environmental variables are hidden and secure. 
-Сайт создан на NextJs с использованием Typecript и React. Он уже опубликован на (https://dogs-9ucu0xu3d-dias-projects-45390f39.vercel.app/). К сайту подключен ChatGPT и есть API для собак (https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t). Это немного странно, когда дело доходит до работы с компонентом поиска. Я пытался сделать это с помощью query, но лучший из них есть на сайте. Это не дает нам правильного ответа из-за хромого API.
+## Details
+- Site is build on NextJs using Typecript and React. It is already deployed on a (https://dogs-9ucu0xu3d-dias-projects-45390f39.vercel.app/). You can view all the needed components and pages on src. 
+- ChatGPT is conected to the site and api for dogs is (https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t). It's a bit wierd when it comes to working with the search component. I tried to make it with query, but the best one is in the site. It doesn't give us the right answer because of the lame api. The environmental variables are hidden and secure. 
+- Сайт создан на NextJs с использованием Typecript и React. Он уже опубликован на (https://dogs-9ucu0xu3d-dias-projects-45390f39.vercel.app/). 
+- К сайту подключен ChatGPT и есть API для собак (https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t). Это немного странно, когда дело доходит до работы с компонентом поиска. Я пытался сделать это с помощью query, но лучший из них есть на сайте. Это не дает нам правильного ответа из-за хромого API.
  Вы можете просмотреть все необходимые компоненты и страницы в src. environmental variables скрыты и безопасны.
-"packages": {
+
+## Packages
+- "packages": {
     "": {
       "name": "factorial",
       "version": "0.1.0",
@@ -64,5 +68,6 @@ Site is build on NextJs using Typecript and React. It is already deployed on a (
       },
     }
 }
-Here are the packages to download. I used react icons and heroicons for using icos, used shadcn ui components for the design. 
-Вот пакеты для скачивания. Я использовал react icons и heroicons для использования icos, а для дизайна — компоненты Shadcn UI.
+
+- Here are the packages to download. I used react icons and heroicons for using icos, used shadcn ui components for the design. 
+- Вот пакеты для скачивания. Я использовал react icons и heroicons для использования icos, а для дизайна — компоненты Shadcn UI.

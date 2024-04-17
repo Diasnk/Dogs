@@ -18,7 +18,9 @@ export default function Header() {
 				<Link href="./dogs" className="flex items-center font-semibold text-white  hover:underline transition-all">
 					Dogs
 				</Link>
-				
+				<Link href="./view" className="flex items-center font-semibold text-white  hover:underline transition-all">
+					Posts
+				</Link>
 			</div>
 		</div>
 	);

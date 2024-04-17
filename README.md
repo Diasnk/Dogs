@@ -40,7 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 Site is build on NextJs using Typecript and React. It is already deployed on a (https://dogs-9ucu0xu3d-dias-projects-45390f39.vercel.app/). You can view all the needed components and pages on src. The environmental variables are hidden and secure. 
-Сайт создан на NextJs с использованием Typecript и React. Он уже развернут на (https://dogs-9ucu0xu3d-dias-projects-45390f39.vercel.app/). Вы можете просмотреть все необходимые компоненты и страницы в src. environmental variables скрыты и безопасны.
+Сайт создан на NextJs с использованием Typecript и React. Он уже опубликован на (https://dogs-9ucu0xu3d-dias-projects-45390f39.vercel.app/). Вы можете просмотреть все необходимые компоненты и страницы в src. environmental variables скрыты и безопасны.
 "packages": {
     "": {
       "name": "factorial",

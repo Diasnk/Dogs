@@ -18,11 +18,11 @@ export default async function View(){
 
                 {dog.breeds.map((breed: any) => {
                 return (
-                    <div className="flex flex-col">
-                    <h1 className="ml-1.5 font-semibold text-lg">{breed.name}</h1>
-                    <p className="ml-1.5">Temperament: {breed.temperament}</p>
-                    <p className="ml-1.5">ID: {breed.id}</p>
-                    <Link className="font-semibold border w-fit m-2 p-1 rounded-md text-white bg-slate-300 hover:bg-slate-500" href="./specialist">Contact Specialist</Link>
+                    <div key={breed.name} className="flex flex-col">
+                        <h1 className="ml-1.5 font-semibold text-lg">{breed.name}</h1>
+                        <p className="ml-1.5">Temperament: {breed.temperament}</p>
+                        <p className="ml-1.5">ID: {breed.id}</p>
+                        <Link className="font-semibold border w-fit m-2 p-1 rounded-md text-white bg-slate-300 hover:bg-slate-500" href="./specialist">Contact Specialist</Link>
                     </div>
                 )
                 })}

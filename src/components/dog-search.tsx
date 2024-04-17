@@ -53,7 +53,7 @@ const DogSearch: React.FC = () => {
       {isLoading && <p>Loading...</p>}
       {error && <p style={{ color: "red" }}>{error}</p>}
       {breedsData && breedsData.map(breedData => (
-        <div>
+        <div key={breedData.breeds[0].name}>
           <h2>{breedData.breeds[0].name}</h2>
           <img src={breedData.url} alt={`${breedData.breeds[0].name} dog`} />
           <p>{breedData.breeds[0].temperament}</p>

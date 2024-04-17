@@ -34,3 +34,34 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+Site is build on NextJs using Typecript and React. It is already deployed on a (https://dogs-9ucu0xu3d-dias-projects-45390f39.vercel.app/). You can view all the needed components and pages on src. The environmental variables are hidden and secure. 
+Сайт создан на NextJs с использованием Typecript и React. Он уже развернут на (https://dogs-9ucu0xu3d-dias-projects-45390f39.vercel.app/). Вы можете просмотреть все необходимые компоненты и страницы в src. environmental variables скрыты и безопасны.
+"packages": {
+    "": {
+      "name": "factorial",
+      "version": "0.1.0",
+      "dependencies": {
+        "@heroicons/react": "^2.1.3",
+        "@radix-ui/react-slot": "^1.0.2",
+        "@tanstack/react-table": "^8.16.0",
+        "ai": "^3.0.22",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.0",
+        "lucide-react": "^0.368.0",
+        "next": "14.2.1",
+        "openai-edge": "^1.2.2",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-icons": "^5.0.1",
+        "tailwind-merge": "^2.2.2",
+        "tailwindcss-animate": "^1.0.7"
+      },
+    }
+}
+Here are the packages to download. I used react icons and heroicons for using icos, used shadcn ui components for the design. 
+Вот пакеты для скачивания. Я использовал react icons и heroicons для использования icos, а для дизайна — компоненты Shadcn UI.

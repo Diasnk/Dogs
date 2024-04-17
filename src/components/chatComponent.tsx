@@ -22,7 +22,7 @@ export default function ChatComponent() {
                             message.role == 'assistant'
                                 ?
                                 <h3 className="text-lg font-semibold mt-2 ">
-                                    Future Guide
+                                    Specialist
                                 </h3>
                                 :
                                 <h3 className="text-lg font-semibold mt-2 justify-self-end">

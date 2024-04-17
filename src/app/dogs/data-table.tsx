@@ -1,6 +1,6 @@
-'use client'
-import React from 'react'
-import DogSearch from '@/components/dog-search';
+"use client"
+import React from "react"
+import DogSearch from "@/components/dog-search";
 
 
 export default function DataDogs() {

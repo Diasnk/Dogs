@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { BiSolidGroup } from 'react-icons/bi'
+import { BiSolidGroup } from "react-icons/bi"
 
 
 export default function Header() {

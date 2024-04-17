@@ -1,6 +1,6 @@
-'use client';
-import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
-import { useSearchParams, usePathname, useRouter } from 'next/navigation';
+"use client"
+import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import { useSearchParams, usePathname, useRouter } from "next/navigation";
 
 export default function Search({ placeholder }: { placeholder: string }) {
   const searchParams = useSearchParams()
@@ -10,9 +10,9 @@ export default function Search({ placeholder }: { placeholder: string }) {
   function handleSearch(term: string) {
     const params = new URLSearchParams(searchParams)
     if (term) {
-      params.set('breed_ids', term)
+      params.set("breed_ids", term)
     } else {
-      params.delete('breed_ids')
+      params.delete("breed_ids")
     }
     replace(`${pathname}?${params.toString()}`)
   }

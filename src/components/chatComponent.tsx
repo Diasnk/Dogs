@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import { useChat, Message } from "ai/react"
 import { Button } from "./ui/button"
@@ -19,7 +19,7 @@ export default function ChatComponent() {
                     <div className="w-full grid grid-cols-1" key={message.id}>
                         {/* Name of person talking */}
                         {
-                            message.role == 'assistant'
+                            message.role == "assistant"
                                 ?
                                 <h3 className="text-lg font-semibold mt-2 ">
                                     Specialist
@@ -41,7 +41,7 @@ export default function ChatComponent() {
                                 return (
                                     <div className="w-full grid grid-cols-1 " key={message.id}>
                                         {
-                                            message.role == 'user'
+                                            message.role == "user"
                                                 ?
                                                 <p className="text-md w-2/3 justify-self-end flex items-end justify-end mt-2" key={message.id + index}>{currentTextBlocks}</p>
                                                 :
@@ -61,7 +61,7 @@ export default function ChatComponent() {
                 {/* <p>Messages</p> */}
                 <input
                     className="mt-2 w-full p-2 bg-slate-300"
-                    placeholder={'ask something'}
+                    placeholder="ask something"
                     value={input}
                     onChange={handleInputChange}
                 />

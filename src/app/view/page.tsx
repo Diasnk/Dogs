@@ -4,7 +4,7 @@ import Link from "next/link"
 export default async function View(){
 
     async function viewDogs(){
-        const response = await fetch('https://api.thedogapi.com/v1/images/search?limit=25&api_key=live_cePBlx60AA2COc77LfA75pSPy4g28yjeF2n9vIq2xMNRHIoR7TwXQ8oX0oeIW8o7&has_breeds=1')
+        const response = await fetch("https://api.thedogapi.com/v1/images/search?limit=25&api_key=live_cePBlx60AA2COc77LfA75pSPy4g28yjeF2n9vIq2xMNRHIoR7TwXQ8oX0oeIW8o7&has_breeds=1")
         const data = response.json()
         return data
     }

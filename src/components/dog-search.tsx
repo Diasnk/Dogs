@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 interface BreedData {
   breeds: {
@@ -9,7 +9,7 @@ interface BreedData {
 }
 
 const DogSearch: React.FC = () => {
-  const [searchTerm, setSearchTerm] = useState<string>('');
+  const [searchTerm, setSearchTerm] = useState<string>("");
   const [breedsData, setBreedsData] = useState<BreedData[] | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
@@ -23,11 +23,11 @@ const DogSearch: React.FC = () => {
       setError(null);
 
       try {
-        const response = await fetch(`https://api.thedogapi.com/v1/images/search?q=${searchTerm}&has_breeds=1&limit=3&api_key=live_cePBlx60AA2COc77LfA75pSPy4g28yjeF2n9vIq2xMNRHIoR7TwXQ8oX0oeIW8o7`);
+        const response = await fetch("https://api.thedogapi.com/v1/images/search?q=${searchTerm}&has_breeds=1&limit=3&api_key=live_cePBlx60AA2COc77LfA75pSPy4g28yjeF2n9vIq2xMNRHIoR7TwXQ8oX0oeIW8o7");
         const data: BreedData[] = await response.json();
 
         if (data.length === 0) {
-          setError('No breed found for that search term');
+          setError("No breed found for that search term");
         } else {
           setBreedsData(data);
         }
@@ -51,7 +51,7 @@ const DogSearch: React.FC = () => {
       <input type="text" value={searchTerm} onChange={handleSearchChange} placeholder="Enter dog breed" />
       <br />
       {isLoading && <p>Loading...</p>}
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+      {error && <p style={{ color: "red" }}>{error}</p>}
       {breedsData && breedsData.map(breedData => (
         <div>
           <h2>{breedData.breeds[0].name}</h2>
